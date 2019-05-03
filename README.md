@@ -4,9 +4,6 @@ This is a re-working  of [Eddy Verbruggen's](http://www.x-services.nl) insomnia 
 
 1. [Description](https://github.com/tombolaltd/cordova-plugin-insomnia#1-description)
 2. [Installation](https://github.com/tombolaltd/cordova-plugin-insomnia#2-installation)
-    2. [Automatically (CLI / Plugman)](https://github.com/tombolaltd/cordova-plugin-insomnia#automatically-cli--plugman)
-    2. [Manually](https://github.com/tombolaltd/cordova-plugin-insomnia#manually)
-    2. [PhoneGap Build](https://github.com/tombolaltd/cordova-plugin-insomnia#phonegap-build)
 3. [Usage](https://github.com/tombolaltd/cordova-plugin-insomnia#3-usage)
 4. [Credits](https://github.com/tombolaltd/cordova-plugin-insomnia#4-credits)
 5. [License](https://github.com/tombolaltd/cordova-plugin-insomnia#5-license)
