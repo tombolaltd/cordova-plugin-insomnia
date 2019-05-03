@@ -16,7 +16,7 @@
   }
 
   @objc(allowSleepAgain:)
-  func allowSleepAgain(command: CDVInvokedUrlCommand) { // write the function code.
+  func allowSleepAgain(command: CDVInvokedUrlCommand) {
     setKeepAwakeStatus(command: command, isIdleTimerDisabled: false);
   }
 }
