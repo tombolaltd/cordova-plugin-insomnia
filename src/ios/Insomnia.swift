@@ -10,12 +10,12 @@
     self.commandDelegate!.send(pluginResult, callbackId: command.callbackId);
   }
 
-  @objc(keepAwake:) // Declare your function name.
-  func keepAwake(command: CDVInvokedUrlCommand) { // write the function code.
+  @objc(keepAwake:)
+  func keepAwake(command: CDVInvokedUrlCommand) {
     setKeepAwakeStatus(command: command, isIdleTimerDisabled: true);
   }
 
-  @objc(allowSleepAgain:) // Declare your function name.
+  @objc(allowSleepAgain:)
   func allowSleepAgain(command: CDVInvokedUrlCommand) { // write the function code.
     setKeepAwakeStatus(command: command, isIdleTimerDisabled: false);
   }
